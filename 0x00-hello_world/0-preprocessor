@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CFILE="0-preprocessor.c"
+
+gcc -E "$CFILE" -o c
